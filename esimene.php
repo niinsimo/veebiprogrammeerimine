@@ -25,7 +25,7 @@
 	
 	//vaatame, kaua on koolipäeva lõpuni aega jäänud
 	$timeNow = strtotime(date("d.m.Y H:i:s"));
-	echo $timeNow;
+	//echo $timeNow;
 	$schoolDayEnd = strtotime(date("d.m.Y" ." "."15:45"));
 	//echo $schoolDayEnd;
 	$toTheEnd = $schoolDayEnd - $timeNow;
