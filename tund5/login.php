@@ -1,5 +1,6 @@
 <?php
 	require("../../../config.php");
+	require("functions.php");
 	//echo $serverHost;
 	
 	//kui on juba sisseloginud
